@@ -31,7 +31,7 @@ function login() {
 
         <button className='bg-gray-900 h-[40px] w-[140px] hover:bg-slate-200  rounded-2xl mt-4  hover:text-[#333] text-[#c9c6c6]'>LOGIN</button>
         <div className='flex justify-center mt-2 gap-1 '>
-          <p>Don't Have an account?</p>
+          <p>Dont Have an account?</p>
           <Link className='text-[#8ea9e4] underline' href={'/'}>Sign Up</Link>
         </div>
       </div>
