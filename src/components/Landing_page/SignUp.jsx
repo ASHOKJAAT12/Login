@@ -38,8 +38,6 @@ function SignUp() {
     </div>
   )
 }
-const log_btn =document.getElementById('login_btn');
 
-console.log(log_btn);
 
 export default SignUp
