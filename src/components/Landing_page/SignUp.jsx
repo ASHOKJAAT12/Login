@@ -1,5 +1,8 @@
+'use client'
 import Link from 'next/link'
 import React from 'react'
+
+
 
 function SignUp() {
   return (
@@ -20,14 +23,14 @@ function SignUp() {
 
         </form>
 
-        <button className='bg-gray-900 h-[40px] w-[140px] hover:bg-slate-200  rounded-2xl mt-6 hover:text-[#333] text-[#c9c6c6]'>Sign Up</button>
+        <button className='bg-gray-900 h-[40px] w-[140px]   rounded-2xl mt-6 hover:bg-orange-400 hover:text-[#333] text-[#c9c6c6]'>Sign Up</button>
         <div className='flex justify-center mt-4 gap-1 '>
           <p>Already Have an account?</p>
-          <Link className='text-[#8ea9e4] underline' href={'/Login'}>Login In</Link>
+          <Link id='login_btn' className='text-[#8ea9e4] underline' href={'/Login'}>Login In</Link>
         </div>
         <hr className='text-[#333] mt-2 mx-6'></hr>
 
-        <button className='border-slate-900 hover:text-[#333] rounded font-semibold hover:bg-slate-200 border-[1px] h-[40px] w-[200px] mt-4'>
+        <button id='google' className='border-slate-900 hover:text-[#333] rounded font-semibold hover:bg-slate-200 border-[1px] h-[40px] w-[200px] mt-4'>
           Sign Up With Google
         </button>
         
@@ -35,5 +38,8 @@ function SignUp() {
     </div>
   )
 }
+const log_btn =document.getElementById('login_btn');
+
+console.log(log_btn);
 
 export default SignUp
