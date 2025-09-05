@@ -5,7 +5,7 @@ function login() {
   return (
     <div className='flex items-center text-center justify-center min-h-screen bg-slate-900 w-full'>
       <div className='bg-slate-200 h-[350px] w-[400px] pt-6 rounded-lg'>
-        <h1 className='text-2xl font-semibold'>Login</h1>
+        <h1 className='text-2xl font-semibold'>Login Page</h1>
         <form className='flex pl-10 gap-6 flex-col pt-10'>
           <div className='flex'>
             <input className='w-[300px] h-[30px] rounded pl-2 outline-none' type='text' placeholder='username'></input>
